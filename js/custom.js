@@ -86,9 +86,9 @@ Index Of Script
                     yOffset = jQuery(window).scrollTop();
 
                     if (yOffset >= triggerPoint) {
-                        header.addClass("menu-sticky animated slideInDown");
+                        header.addClass("menu-sticky animated ");
                     } else {
-                        header.removeClass("menu-sticky animated slideInDown");
+                        header.removeClass("menu-sticky animated ");
                     }
 
                 });
