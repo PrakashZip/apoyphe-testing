@@ -497,18 +497,17 @@ header.menu-sticky {
 header.menu-sticky .navbar .navbar-brand img {
   height: 50px;
   opacity: 1;
-  animation: fade 2s linear;
+  animation: fade 1s linear;
 }
 
 
 @keyframes fade {
 
-  0%
-   {
+  0% {
     opacity: 0
   }
 
-  100% {
+  90% {
     opacity: 1
   }
 }
@@ -710,10 +709,24 @@ header .navbar .navbar-nav .nav-item a.dropdown-item {
   color: #142149;
 }
 
-header .navbar .navbar-nav .nav-item a.dropdown-item:hover,
+header .navbar .navbar-nav .nav-item a.dropdown-item:hover {
+  color: #007bfc;
+  background: #ffffff;
+  /* font-style: italic; */
+  /* font-weight: 500; */
+}
+
+
 header .navbar .navbar-nav .nav-item a.dropdown-item.active {
-  color: #ffffff;
-  background: #007bfc;
+  color: #007bfc;
+  background: #ffffff;
+  font-style: italic;
+  font-weight: 600;
+}
+
+header .navbar .navbar-nav .nav-item a.dropdown-item:active {
+  /* font-style: italic; */
+  font-weight: 600
 }
 
 header .dropdown>.dropdown-menu {
@@ -1107,6 +1120,7 @@ footer .widget .footer-title {
   margin-bottom: 15px;
   color: #0D1E67;
   font-weight: 600;
+  text-transform: lowercase;
 }
 
 footer .widget .footer-title a.rsswidget img {
