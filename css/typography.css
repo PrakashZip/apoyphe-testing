@@ -168,7 +168,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.563em;
+  font-size: 22px;
 }
 
 h5 {
@@ -210,7 +210,7 @@ section {
 }
 
 .overview-block-ptb {
-  padding: 100px 0;
+  padding: 100px 0px 30px 0px;
 }
 
 .overview-block-pt {
@@ -432,6 +432,7 @@ Button
 /* Title Box Text Left*/
 .iq-title-box.text-center {
   margin-bottom: 45px;
+  padding-bottom: 0px;
 }
 
 .iq-title-white .iq-subtitle,

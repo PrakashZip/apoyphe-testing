@@ -889,8 +889,7 @@ Design and Developed by: iqonicthemes.in
 
 
 
-
-@media(max-width:576px) {
+@media(max-width:768px) {
 
 	header .navbar .navbar-brand img {
 		height: 40px;
@@ -932,13 +931,41 @@ Design and Developed by: iqonicthemes.in
 		font-size: 15px;
 	}
 
+	.iq-process1 {
+		padding-top: 40px;
+	}
+
+	.iq-process {
+		border: 1px solid #ebebeb;
+		border-radius: 7px;
+		text-align: center;
+	}
+
+	.iq-process:hover {
+		/* border: 1px solid #c2d0fc; */
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	}
+
 	.iq-process .iq-process-step .hover-img {
-		max-width: 170px;
-		margin: auto;
+		/* display: block;
+
+		margin-left: auto;
+		margin-right: auto; */
+		display: flex;
+		justify-content: center;
 	}
 
 	.iq-process .iq-process-step .iq-step-text-area {
-		text-align: center;
+		text-align: left;
+		/* border: 1px solid #f5f5f5; */
+	}
+
+	.iq-process .iq-process-step .iq-step-text-area .iq-step-title {
+		font-size: 18px;
+	}
+
+	.iq-process .iq-process-step .iq-step-text-area .iq-step-desc {
+		font-size: 16px;
 	}
 
 	/* .iq-process .iq-process-step .iq-step-text-area .iq-step-title {
@@ -951,7 +978,6 @@ Design and Developed by: iqonicthemes.in
 	footer .footer-top .widget .textwidget img {
 		width: 90px;
 	}
-
 
 	/* contact page  */
 	.overview-block-ptb {
@@ -988,7 +1014,7 @@ Design and Developed by: iqonicthemes.in
 	}
 
 	.all-box {
-		margin-top: 40px;
+		/* margin-top: 40px; */
 		padding: 20px 9px;
 	}
 
@@ -1016,5 +1042,53 @@ Design and Developed by: iqonicthemes.in
 	/* services-section  */
 	.services-section {
 		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+
+
+	.overview-block-ptb {
+		padding: 20px 0px 0px 0px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width:933px) {
+
+	footer .social-icone ul {
+		padding-left: 0px;
+		padding-top: 24px;
+	}
+
+	.product-section img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.respons-box {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.iq-blog-section {
+		padding: 10px 30px 60px 30px;
+	}
+
+	.industries-section {
+		padding-top: 30px;
+	}
+
+	.industries-section img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.overview-block-ptb {
+		padding: 20px 0px 10px 0px;
+	}
+
+	.iq-process1 {
+		padding-top: 30px;
 	}
 }
