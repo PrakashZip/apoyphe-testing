@@ -279,7 +279,53 @@ Index Of Script
                 var jQuerycarousel = jQuery(this);
                 jQuerycarousel.owlCarousel({
                     items: jQuerycarousel.data("items"),
+                    rtl:true,
+                    loop: true,
+                    margin: jQuerycarousel.data("margin"),
+                    stagePadding: jQuerycarousel.data("padding"),
+                    nav: jQuerycarousel.data("nav"),
+                    dots: jQuerycarousel.data("dots"),
+                    autoplay: true,
+                    autoplayTimeout: jQuerycarousel.data("autoplay-timeout"),
+                    navText: ["<i class='fa fa-angle-left fa-2x'></i>", "<i class='fa fa-angle-right fa-2x'></i>"],
+                    responsiveClass: true,
+                    responsive: {
+                        // breakpoint from 0 up
+                        0: {
+                            items: jQuerycarousel.data("items-mobile-sm"),
+                            nav: false,
+                            dots: true
+                        },
+                        // breakpoint from 480 up
+                        480: {
+                            items: jQuerycarousel.data("items-mobile"),
+                            nav: false,
+                            dots: true
+                        },
+                        // breakpoint from 786 up
+                        768: {
+                            items: jQuerycarousel.data("items-tab")
+                        },
+                        // breakpoint from 1023 up
+                        1023: {
+                            items: jQuerycarousel.data("items-laptop")
+                        },
+                        1199: {
+                            items: jQuerycarousel.data("items")
+                        }
+                    }
+                });
+            });
+
+
+
+            // second craousel 
+            jQuery('.owl-carousel').each(function () {
+                var jQuerycarousel = jQuery(this);
+                jQuerycarousel.owlCarousel({
+                    items: jQuerycarousel.data("items1"),
                     loop: jQuerycarousel.data("loop"),
+                    ltr:true,
                     margin: jQuerycarousel.data("margin"),
                     stagePadding: jQuerycarousel.data("padding"),
                     nav: jQuerycarousel.data("nav"),
@@ -315,6 +361,7 @@ Index Of Script
                     }
                 });
             });
+
 
             /*------------------------
             Wow Animation

@@ -444,9 +444,9 @@ Button
 
 /*style 2*/
 .iq-title-box.iq-title-box-2 .iq-subtitle {
-  color: #007bfc;
-  background-color: #F2F5FE;
-  padding: 2px 20px;
+  color: #2482EB;
+  background-color: #E2EDFF;
+  padding: 5px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -551,7 +551,8 @@ textarea:hover {
   position: fixed;
   margin: 0px;
   color: #ffffff;
-  background: #0D1E67;
+  /* background: #0D1E67; */
+  background: #2482EB;
   position: fixed;
   bottom: 30px;
   right: 25px;
@@ -561,7 +562,7 @@ textarea:hover {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  border-radius: 10px;
+  border-radius: 50px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
